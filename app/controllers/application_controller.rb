@@ -22,4 +22,34 @@ class ApplicationController < Sinatra::Base
     task.destroy
     task.to_json
   end
+
+
+
+  get '/groups' do
+    groups = Group.all.order(:name)
+    groups.to_json
+  end
+
+  post '/groups/' do
+    group = Group.create(name: params[:name])
+    group.to_json
+  end
+
+  patch '/groups/:id' do
+    group = Group.find(params[:id])
+    group.update(name: params[:name])
+    group.to_json
+  end
+
+  delete '/tasks/:id' do
+    group = Group.find(params[:id])
+    group.destroy
+    group.to_json
+  end
+
+
+
+
+
+
 end

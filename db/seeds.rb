@@ -2,16 +2,20 @@ puts "🌱 Seeding messages..."
 
 Group.create([
   {
-    name: "Home"
+    name: "Home",
+    bicon: "🏠"
   },
   {
-    name: "School"
+    name: "School",
+    bicon: "📚"
   },
   {
-    name: "Work"
+    name: "Work",
+    bicon: "💼"
   },
   {
-    name: "Finance"
+    name: "Finance",
+    bicon:"💰"
   }
 ])
 

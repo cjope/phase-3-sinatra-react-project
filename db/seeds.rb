@@ -23,27 +23,27 @@ Task.create([
   {
     body: "Make the Bed",
     group_id: "1",
-    due: ("12/01/2021")
+    due: ("12/12/2021")
   },
   {
     body: "Sweep the Floor",
     group_id: "1",
-    due: ("12/01/2021")
+    due: ("12/12/2021")
   },
   {
     body: "Shake the Carpet",
     group_id: "1",
-    due: ("12/01/2021")
+    due: ("12/12/2021")
   },
   {
     body: "Spray",
     group_id: "1",
-    due: ("12/01/2021")
+    due: ("12/12/2021")
   },
   {
     body: "Put My Stuff in a Pile",
     group_id: "1",
-    due: ("12/01/2021")
+    due: ("12/12/2021")
   },
   {
     body: "Holiday Break",
@@ -57,7 +57,7 @@ Task.create([
   },  {
     body: "Pay Loans",
     group_id: "4",
-    due: ("01/07/2022")
+    due: ("15/12/2022")
   }
 ])
 

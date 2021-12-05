@@ -10,19 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_11_27_081834) do
-
-  create_table "groups", force: :cascade do |t|
-    t.string "name"
-    t.string "bicon"
-  end
-
-  create_table "tasks", force: :cascade do |t|
-    t.string "body"
-    t.datetime "due"
-    t.datetime "created_at", precision: 6, null: false
-    t.datetime "updated_at", precision: 6, null: false
-    t.integer "group_id"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end

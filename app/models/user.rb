@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-    has_many :groups
-    has_many :tasks, through: :group
+    has_many :tasks
+    has_many :groups, through: :tasks
 end

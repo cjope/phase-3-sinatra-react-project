@@ -13,19 +13,19 @@
 ActiveRecord::Schema.define(version: 2021_11_26_233103) do
 
   create_table "groups", force: :cascade do |t|
-    t.integer "user_id"
     t.string "name"
     t.string "emoji"
-    t.index ["user_id"], name: "index_groups_on_user_id"
   end
 
   create_table "tasks", force: :cascade do |t|
     t.integer "group_id"
-    t.string "body"
+    t.integer "user_id"
+    t.text "body"
     t.datetime "due"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["group_id"], name: "index_tasks_on_group_id"
+    t.index ["user_id"], name: "index_tasks_on_user_id"
   end
 
   create_table "users", force: :cascade do |t|

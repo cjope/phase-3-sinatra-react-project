@@ -38,7 +38,7 @@ Task.create([
     body: "Finish App",
     user_id: "1",
     group_id: "1",
-    due: ("12/5/2021")
+    due: ("05/12/2021")
   },
   {
     body: "Make the Bed",
@@ -50,7 +50,7 @@ Task.create([
     body: "Sweep the Floor",
     user_id: "1",
     group_id: "2",
-    due: ("12/12/2021")
+    due: ("12/11/2021")
   },
   {
     body: "Shake the Carpet",
@@ -62,7 +62,7 @@ Task.create([
     body: "Spray",
     user_id: "1",
     group_id: "2",
-    due: ("12/12/2021")
+    due: ("12/09/2021")
   },
   {
     body: "Holiday Break",
@@ -74,7 +74,7 @@ Task.create([
     body: "Run reports forever",
     user_id: "1",
     group_id: "3",
-    due: ("24/12/2022")
+    due: ("06/12/2022")
   },
   {
     body: "Phase 4 Starts",
